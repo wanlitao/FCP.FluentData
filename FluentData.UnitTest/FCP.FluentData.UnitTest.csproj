@@ -6,8 +6,8 @@
     <ProjectGuid>{7314DA3B-B8B3-4E4D-859A-9421C1ED07D0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>FluentData.UnitTest</RootNamespace>
-    <AssemblyName>FluentData.UnitTest</AssemblyName>
+    <RootNamespace>FCP.FluentData.UnitTest</RootNamespace>
+    <AssemblyName>FCP.FluentData.UnitTest</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -62,13 +62,15 @@
     <Compile Include="Providers\MySqlDbTests.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FluentData\FluentData.csproj">
+    <ProjectReference Include="..\FluentData\FCP.FluentData.csproj">
       <Project>{b5ae821b-7728-49b3-9119-3bbc4c8e58e9}</Project>
-      <Name>FluentData</Name>
+      <Name>FCP.FluentData</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <Choose>

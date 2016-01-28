@@ -5,15 +5,15 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("FluentData")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("FCP.FluentData")]
+[assembly: AssemblyDescription("Micro ORM for FCP(Fluent Compute Platform)")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("FluentData")]
-[assembly: AssemblyCopyright("Copyright ©  2015 - The Fluent Data Project")]
+[assembly: AssemblyCompany("GreatBillows")]
+[assembly: AssemblyProduct("FCP.FluentData")]
+[assembly: AssemblyCopyright("Copyright © GreatBillows 2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
-[assembly: InternalsVisibleTo("FluentData.UnitTests")]
+[assembly: InternalsVisibleTo("FCP.FluentData.UnitTests")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 
 // to COM components.  If you need to access a type in this assembly from 
@@ -33,5 +33,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("3.0.1.0")]
-[assembly: AssemblyFileVersion("3.0.1.0")]
+[assembly: AssemblyVersion("1.0.0.0")]
+[assembly: AssemblyFileVersion("1.0.0.0")]

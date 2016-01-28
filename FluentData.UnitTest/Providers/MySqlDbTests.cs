@@ -1,7 +1,8 @@
 ﻿using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using FluentData;
 
-namespace FluentData.UnitTest
+namespace FCP.FluentData.UnitTest
 {
     [TestClass]
     public class MySqlDbTests

@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentData.UnitTest", "FluentData.UnitTest\FluentData.UnitTest.csproj", "{7314DA3B-B8B3-4E4D-859A-9421C1ED07D0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FCP.FluentData.UnitTest", "FluentData.UnitTest\FCP.FluentData.UnitTest.csproj", "{7314DA3B-B8B3-4E4D-859A-9421C1ED07D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentData", "FluentData\FluentData.csproj", "{B5AE821B-7728-49B3-9119-3BBC4C8E58E9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FCP.FluentData", "FluentData\FCP.FluentData.csproj", "{B5AE821B-7728-49B3-9119-3BBC4C8E58E9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

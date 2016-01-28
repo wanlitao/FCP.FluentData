@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Configuration;
+using FluentData;
 
-namespace FluentData.UnitTest
+namespace FCP.FluentData.UnitTest
 {
     public static class ContextHelper
     {
