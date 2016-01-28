@@ -1,2 +1,2 @@
 # FCP.FluentData
-Micro ORM for FCP(Fluent Compute Platform), base on FluentData(http://fluentdata.codeplex.com/)
+Micro ORM for FCP(Fluent Compute Platform), base on FluentData(http://fluentdata.codeplex.com/), fix some bugs
