@@ -4,7 +4,7 @@ using System.Reflection;
 
 namespace FluentData
 {
-	internal class PropertyExpressionParser<T>
+	public class PropertyExpressionParser<T>
 	{
 		private readonly object _item;
 		private readonly PropertyInfo _property;

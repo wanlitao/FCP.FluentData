@@ -7,7 +7,7 @@ using System.Reflection;
 
 namespace FluentData
 {
-	internal static class ReflectionHelper
+	public static class ReflectionHelper
 	{
 		private static readonly ConcurrentDictionary<Type, Dictionary<string, PropertyInfo>> _cachedProperties = new ConcurrentDictionary<Type, Dictionary<string, PropertyInfo>>();
 
